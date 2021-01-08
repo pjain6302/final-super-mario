@@ -36,7 +36,7 @@ function setup() {
   mario.addAnimation("running", mario_running);
   mario.scale = 0.5;
   
-  ground = createSprite(0,190,1200,10);
+  ground = createSprite(0,190,12000,10);
   ground.x = ground.width /2;
   ground.velocityX = -(6 + 3*score/100);
   
